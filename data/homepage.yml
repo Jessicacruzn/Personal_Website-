@@ -1,0 +1,110 @@
+head:
+  title: "Jessica Cruz's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Jessica Cruz."
+  subtitle: "Data Scientist"
+  description: "Jessica is a Masters student studying Public Informatics at Rutgers University."
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Jessica"
+    URL: "mailto:jessicacruzn9@gmail.com"
+
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/Jessicacruzn"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    I am a first-year Master of Public Informatics student 
+    at the Edward J. Bloustein School of Planning and Public 
+    Policy at Rutgers University-New Brunswick. I have a B.S. 
+    in Electrical Engineering from The University of Texas at 
+    Austin where I specialized in data science and signal processing. 
+    I did many projects as an undergraduate that applied data science 
+    and engineering to community needs, and now I'm passionate about 
+    using data science tools to inform social policy solutions.
+    </p>
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I've been hustling my whole life"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/jessicacruz-945174123?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQRkrOry0QjK5fY1bsx%2FQmQ%3D%3D"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "I don't have one yet"
+
+  items:
+    - title: "Research Assistant"
+      company: "Heldrich Center for Workforce Development"
+      duration: "Oct 2021 - Now"
+
+    - title: "Research Assistant"
+      company: "New Jersey Policy Lab"
+      duration: "Sept 2021 - Now"
+
+    - title: "National Science Foundation REU Intern"
+      company: "North Carolina State University"
+      duration: "May 2019 - August 2019"
+      
+    - title: "Summer Scholar Intern"
+      company: "Infinera"
+      duration: "Jun 2018 - August 2018"
+      
+    - title: "Multimedia Specialist Intern"
+      company: "Ericsson"
+      duration: "Jun 2016 - Dec 2017"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Rutgers University"
+      year: "2021-2022"
+      degree: "Master of Public Informatics (MS)"
+
+    - university: "University of Texas at Austin"
+      year: "2017-2021"
+      degree: "Bachelor of Electrical Engineering"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  works:
+    - title: "Population Density of New Jersey"
+      description: "Learned how to create a 3D map in R using the rayrender package"
+      image:
+        x: "images/nj.png"
+        _2x: "images/nj.png"
+      is_even: true
+
+    - title: "Population Density of New Jersey Part 2"
+      description: "Learned how to create a 3D map in R using the rayrender package. This is a high quality rendering where you can even adjust light direction."
+      image:
+        x: "images/njdensity_4k.png"
+        _2x: "images/njdensity_4k.png"
+      is_even: false
